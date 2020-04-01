@@ -1,6 +1,6 @@
-RewriteEngine on
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://dialy.naysok.org/$1 [R=301,L]
+# RewriteEngine on
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://dialy.naysok.org/$1 [R=301,L]
 
 <Files ~ "\.md$">
   deny from all
