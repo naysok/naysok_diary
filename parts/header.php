@@ -25,6 +25,4 @@
       <br>
     </div>
 
-
-    <!-- url -->
-    <div class="url">
+    
