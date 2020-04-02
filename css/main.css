@@ -1,0 +1,46 @@
+/* https://www.palettable.io/F3F3F1-77C7BF-3A79AB-505050-99D55C */
+
+:root {
+  --color0: #F3F3F1;
+  --color1: #505050;
+  --color2: #99D55C;
+  --color3: #04A7AB;
+  --color4: #3A79AB;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: var(--color0);
+  color: var(--color1);
+  align-items: left;
+  text-align: left;
+}
+
+p {
+  line-height: 250%;
+  font-size: 16px;
+}
+
+a,
+a:link,
+a:visited {
+  padding-top: 4px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: var(--color0);
+  background-color: var(--color4);
+}
+
+a:hover {
+  background-color: var(--color2);
+}
+
+.footer p {
+  line-height: 180%;
+  font-size: 16px;
+}
