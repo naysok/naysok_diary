@@ -25,6 +25,21 @@
       <br>
     </div>
 
-<?php include('parts/url_list.php'); ?>
 
-<?php include('parts/footer.php'); ?>
+    <!-- = = = = = = = = = PHP = = = = = = = = = -->
+    <?php include('parts/url_list.php'); ?>
+    <!-- = = = = = = = = = PHP = = = = = = = = = -->
+
+    <!-- footer -->
+    <div class="footer">
+      <br>
+      <hr>
+      <br>
+      <p>2020</p>
+      <p>dialy.naysok.org</p>
+      <br><br>
+    </div>
+
+    </body>
+
+    </html>
