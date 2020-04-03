@@ -1,3 +1,12 @@
 # naysok_diary  
 
-[dialy.naysok.org](https://dialy.naysok.org)  
+
+[diary.naysok.org](https://diary.naysok.org)  
+
+
+
+### PHP ビルドインウェブサーバ  
+
+```php
+php -S 127.0.0.1:8000
+```
