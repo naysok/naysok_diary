@@ -4,7 +4,7 @@
   <hr>
   <br>
   <p>2020</p>
-  <p>dialy.naysok.org</p>
+  <p>diary.naysok.org</p>
   <br><br>
 </div>
 
