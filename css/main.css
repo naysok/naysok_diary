@@ -40,6 +40,7 @@ p {
   padding-bottom: 8px;
 }
 
+.header p,
 .url p,
 .footer p {
   line-height: 240%;
