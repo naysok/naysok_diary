@@ -1,6 +1,21 @@
-<!-- url -->
 <div class="url">
-    <p><a href="./build/200401">200401</a></p>
-    <p><a href="./build/200402">200402</a></p>
-    <p><a href="./build/200403">200403</a></p>
+
+
+<!-- ===== get url PHP ===== -->
+<?php
+$dirs = glob('../build/*');
+
+foreach ($dirs as $dir) {
+    $date = explode("/", $dir);
+
+    // echo "0 : ", $date[0], "\n";
+    // echo "1 : ", $date[1], "\n";
+    // echo "2 : ", $date[2], "\n";
+
+    echo "<p><a href=\"$dir\">", $date[2], "</a></p>\n";
+}
+?>
+<!-- ===== get url PHP ===== -->
+
+
 </div>
