@@ -27,9 +27,12 @@
 
     <div class="url">
 
-      <!-- ===== get url, PHP ===== -->
+      <!-- =============== get url, PHP =============== -->
       <?php
-      $dirs = glob('./build/*');
+      $dirs_src = glob('./build/*');
+      
+      // reverse list
+      $dirs = array_reverse($dirs_src);
 
       foreach ($dirs as $dir) {
           $date = explode("/", $dir);
@@ -41,7 +44,7 @@
           echo "<p><a href=\"$dir\">", $date[2], "</a></p>\n";
       }
       ?>
-      <!-- ===== get url PHP ===== -->
+      <!-- =============== get url PHP =============== -->
 
     </div>
 
