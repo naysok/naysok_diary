@@ -10,6 +10,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
+# Module in Local
+_py_/markdown/
+
 
 ### Virtualenv
 ### http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
