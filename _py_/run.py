@@ -20,7 +20,7 @@ def convert_md_html(d):
     if php in f:
         os.remove(php)
     ### open md file
-    with open(data_dir + d + ".md") as f:
+    with open(data_dir + d + ".md", encoding="utf-8") as f:
         l = f.readlines()
     ### html
     html = []
@@ -34,7 +34,7 @@ def convert_md_html(d):
     html.append("<br><br>\n<p><a href=\"../../\">back</a></p>\n<br>\n")
     html.append("<?php include('../../parts/footer.php'); ?>\n")
     ### export
-    with open(php, mode='w') as f:
+    with open(php, mode='w', encoding="utf-8") as f:
         f.writelines(html)
 
 
