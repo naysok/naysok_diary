@@ -19,8 +19,6 @@
     <div class="header">
       <h1>diary.naysok.org</h1>
       <br>
-      <p><a href="https://github.com/naysok/naysok_diary">https://github.com/naysok/naysok_diary</a></p>
-      <br>
       <hr>
       <br>
     </div>
