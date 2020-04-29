@@ -25,26 +25,50 @@
       <br>
     </div>
 
+
+    <!-- url_list -->
     <div class="url">
 
-      <!-- =============== get url, PHP =============== -->
+      <!-- =============== PHP =============== -->
       <?php
-      $dirs_src = glob('./build/*');
-      
-      // reverse list
-      $dirs = array_reverse($dirs_src);
 
-      foreach ($dirs as $dir) {
-          $date = explode("/", $dir);
+      // Get Month_List
+      $month_src = glob('./build/*');
+      $month = array_reverse($month_src);
 
-          // echo "0 : ", $date[0], "\n";
-          // echo "1 : ", $date[1], "\n";
-          // echo "2 : ", $date[2], "\n";
 
-          echo "<p><a href=\"$dir\">", $date[2], "</a></p>\n";
+      foreach ($month as $m) {
+        
+        list($p0, $p1, $new_m) = explode("/", $m);
+
+        // Define Month
+        echo "\n<!--  ===== Month ===== -->\n<h2>$new_m</h2>\n\n";
+        
+        // Get Date_list
+        $date = glob('./build/'.$new_m."/*");
+        $date_reverse = array_reverse($date);
+
+        // Define Date
+        echo "<!-- Date -->\n<p>\n";
+
+        foreach ($date as $d) {
+          $yyyymm = explode("/", $d);
+
+          echo "<a href=\"$d\">", $yyyymm[3], "</a>";
+
+          // Divede
+          if ($d !== $date_reverse[0]) {
+            echo "\n&nbsp/&nbsp\n";
+          }
+
+        }
+
+        echo "\n</p><br>\n<!-- Date -->\n\n";
+
       }
+
       ?>
-      <!-- =============== get url PHP =============== -->
+      <!-- =============== PHP =============== -->
 
     </div>
 
