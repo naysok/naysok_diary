@@ -1,4 +1,4 @@
-<?php include('../../parts/header.php'); ?>
+<?php include('../../../parts/header.php'); ?>
 <h1>200421</h1>
 
 <h3>雑感</h3>
@@ -97,6 +97,6 @@
 <li>Rhino + cs  </li>
 </ul>
 <br><br>
-<p><a href="../../">back</a></p>
+<p><a href="../../../">back</a></p>
 <br>
-<?php include('../../parts/footer.php'); ?>
+<?php include('../../../parts/footer.php'); ?>

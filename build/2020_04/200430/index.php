@@ -1,4 +1,4 @@
-<?php include('../../parts/header.php'); ?>
+<?php include('../../../parts/header.php'); ?>
 <h1>200430</h1>
 
 <p>Windows 10 のマシンに環境を整える。  </p>
@@ -116,6 +116,6 @@
 <li>diary-updete, previous + next  </li>
 </ul>
 <br><br>
-<p><a href="../../">back</a></p>
+<p><a href="../../../">back</a></p>
 <br>
-<?php include('../../parts/footer.php'); ?>
+<?php include('../../../parts/footer.php'); ?>
