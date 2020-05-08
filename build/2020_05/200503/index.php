@@ -1,4 +1,4 @@
-<?php include('../../parts/header.php'); ?>
+<?php include('../../../parts/header.php'); ?>
 <h1>200503</h1>
 
 <p>昨日書いていた、gcode パーサの改良。3D プリンタのファームウェアとして一般的な Marlin 向けに書き出された gcode を扱うために、Marlin のドキュメントを読み込みながら実装をすすめる。エクストルーダの値を使って、出力と移動を区別できれば、スライサで書き出されたパスを、ジオメトリとしての操作で修正できると思うのでもう少し掘り下げたい。</p>
@@ -121,6 +121,6 @@
 <li>diary-updete, previous + next  </li>
 </ul>
 <br><br>
-<p><a href="../../">back</a></p>
+<p><a href="../../../">back</a></p>
 <br>
-<?php include('../../parts/footer.php'); ?>
+<?php include('../../../parts/footer.php'); ?>

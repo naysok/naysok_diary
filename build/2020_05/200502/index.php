@@ -1,4 +1,4 @@
-<?php include('../../parts/header.php'); ?>
+<?php include('../../../parts/header.php'); ?>
 <h1>200502</h1>
 
 <p>gcode のパース部分を書く。  </p>
@@ -120,6 +120,6 @@
 <li>diary-updete, previous + next  </li>
 </ul>
 <br><br>
-<p><a href="../../">back</a></p>
+<p><a href="../../../">back</a></p>
 <br>
-<?php include('../../parts/footer.php'); ?>
+<?php include('../../../parts/footer.php'); ?>

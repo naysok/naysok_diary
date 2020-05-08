@@ -1,4 +1,4 @@
-<?php include('../../parts/header.php'); ?>
+<?php include('../../../parts/header.php'); ?>
 <h1>200501</h1>
 
 <p>昼に起きて、パソコンに向かう。 </p>
@@ -119,6 +119,6 @@
 <li>diary-updete, previous + next  </li>
 </ul>
 <br><br>
-<p><a href="../../">back</a></p>
+<p><a href="../../../">back</a></p>
 <br>
-<?php include('../../parts/footer.php'); ?>
+<?php include('../../../parts/footer.php'); ?>

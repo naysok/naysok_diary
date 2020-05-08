@@ -1,4 +1,4 @@
-<?php include('../../parts/header.php'); ?>
+<?php include('../../../parts/header.php'); ?>
 <h1>200505</h1>
 
 <p>家環境を整えるために、機材整理をしながら、必要な機材やケーブルをポチポチ注文。ほぼ同じものが複数あったり、短すぎるもの長すぎるものがあったりと使わないものも多くあるが、一本当たり少なくとも1000円すると思うと馬鹿にならない。</p>
@@ -131,6 +131,6 @@
 <li>diary-updete, previous + next  </li>
 </ul>
 <br><br>
-<p><a href="../../">back</a></p>
+<p><a href="../../../">back</a></p>
 <br>
-<?php include('../../parts/footer.php'); ?>
+<?php include('../../../parts/footer.php'); ?>
