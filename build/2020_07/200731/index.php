@@ -22,7 +22,7 @@
 <li>フルカラーボクセル環境の準備  </li>
 </ul>
 <ul>
-<li>Writer Plus Ai 検証  </li>
+<li>Auto GUI Tool の開発  </li>
 </ul>
 <ul>
 <li>Magarimono Pop Up Movie  </li>
